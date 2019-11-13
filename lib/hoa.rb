@@ -11,5 +11,5 @@ def add_character(show, name)
   BASE_HOA[:chipmunks] << name
   BASE_HOA[:third_earthers] << "Snarf"
   BASE_HOA[:jetsons] << "Astro"
-  BASE_HOA
+  BASE_HOA(show)
 end
